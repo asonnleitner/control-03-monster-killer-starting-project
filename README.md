@@ -1,4 +1,5 @@
-##js-gameboy-sonny-edition
+#js-gameboy-sonny-edition
+
 > Work in progress
 
 ![alt javascript](https://img.shields.io/badge/Made%20with-Javascript-%23F7DF1E?style=flat-square&logo=javascript)
