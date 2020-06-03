@@ -1,0 +1,197 @@
+html {
+    font-family: sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    background: #c5c2bd;
+}
+
+h2 {
+    font-size: 1.25rem;
+    margin: 1rem 0.5rem;
+}
+
+progress {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 80%;
+    height: 2rem;
+    color: #ff0062;
+}
+
+progress[value]::-webkit-progress-bar,
+progress[value] {
+    background-color: rgba(48, 98, 48, 0.25);
+}
+
+progress[value]::-webkit-progress-value {
+    background-color: #306230;
+    transition: all 0.2s ease-out;
+}
+
+progress[value]::-moz-progress-bar {
+    background-color: #306230;
+    transition: all 0.2s ease-out;
+}
+
+button {
+    font: inherit;
+    background: #ff0062;
+    border: 1px solid #ff0062;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 0.75rem;
+    transition: all .2s cubic-bezier(0.30, 0.80, 0.50, 1)
+}
+
+button:focus {
+    outline: none;
+}
+
+button:hover,
+button:active {
+    background: #a927f5;
+    box-shadow: inset 0 0 6px #00000059;
+    border-color: transparent;
+    filter: brightness(110%);
+}
+
+
+#controls {
+    margin: 2rem auto;
+    width: 30rem;
+    text-align: center;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+#health-levels {
+    margin: 5rem;
+    width: 30rem;
+    height: 25rem;
+    text-align: center;
+    border-radius: 3px;
+    border: #292626 2px solid;
+    background-color: #8bac0f;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#health-levels:hover {
+    background-color: #9bbc0f;
+}
+
+#health-levels:hover #bonus-life {
+    color: #9bbc0f;
+}
+
+#controls {
+    display: flex;
+    flex-direction: column;
+}
+
+#bonus-life {
+    font-weight: bold;
+    color: #8bac0f;
+    background: #306230;
+    border: 1px solid #306230;
+    padding: 0.15rem 0.5rem;
+    text-align: center;
+    margin: 0 0.5rem;
+}
+
+.screen-text {
+    font-family: 'Press Start 2P', cursive;
+    color: #306230;
+}
+
+#attack-btn, #strong-attack-btn {
+    background-color: #98218f;
+    border: #ab23a0 2px solid;
+    flex-grow: 1;
+    width: 100%;
+}
+
+#heal-btn {
+    background-color: #1f1e1e;
+    border: 2px solid #1f1e1e;
+}
+
+#log-btn {
+    background-color: gray;
+    border: 2px solid #bdbab4;
+}
+
+.screen-background {
+    background-color: #504d5d;
+    border: lightgray 2px solid;
+    border-radius: 3rem 3rem 6rem 3rem;
+}
+
+.d-flex {
+    display: flex !important;
+}
+
+.justify-content-center {
+    justify-content: center !important;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.attack-buttons {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #bdbab4;
+    border-radius: 5px;
+}
+
+.author {
+    font-family: monospace;
+    color: #fff;
+    margin: 0;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.app-name {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 21px;
+    color: #504d5d;
+}
+
+.info-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    position: fixed;
+    top: 10px;
+}
+
+.info-content {
+    margin: auto;
+}
+
+.game-screen {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}

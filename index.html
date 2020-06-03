@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
+    <title>Monster Killer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="assets/styles/app.css" rel="stylesheet"/>
+
+    <script defer src="assets/scripts/vendor.js"></script>
+    <script defer src="assets/scripts/app.js"></script>
+</head>
+<body>
+<div>
+    <div class="info-wrapper">
+        <div class="info-content">
+            <span class="app-name">Gameboy</span>
+            <div>
+                <p class="author">Sonny Edition v1.0</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="d-flex justify-content-center">
+        <div class="screen-background">
+            <section class="game-screen" id="health-levels">
+                <h2 class="screen-text">MONSTER HEALTH</h2>
+                <progress id="monster-health" max="100" value="100">100%</progress>
+                <h2 class="screen-text">PLAYER HEALTH<span class="screen-text" id="bonus-life">1</span></h2>
+                <progress id="player-health" max="100" value="100">100%</progress>
+            </section>
+        </div>
+    </div>
+    <div>
+        <section id="controls">
+            <div class="attack-buttons">
+                <button id="attack-btn">ATTACK</button>
+                <button id="strong-attack-btn">STRONG ATTACK</button>
+            </div>
+            <button id="heal-btn">HEAL</button>
+            <button id="log-btn">SHOW LOG</button>
+        </section>
+    </div>
+</div>
+</body>
+</html>
