@@ -1,4 +1,4 @@
-#js-gameboy-sonny-edition
+# js-gameboy-sonny-edition
 
 > Work in progress
 
